@@ -16,7 +16,7 @@ PRIMARY KEY (`id`));
   
 
 En nodejs:
-instalar los módulos express, nodemon
+instalar los módulos express, nodemon, cors
 instalar express-myconnection
 
 En Visual Studio Code
