@@ -2,7 +2,7 @@ const express = require('express');
 const routes = express.Router();
 
 routes.get('/', (req, res) => {
-    //res.send('testing api');
+    
     req.getConnection( (err,conn) => {
         if (err) return res.send(err)
         
@@ -14,7 +14,7 @@ routes.get('/', (req, res) => {
 });
 
 routes.post('/', (req, res) => {
-    //res.send('testing api');
+    
     req.getConnection( (err,conn) => {
         if (err) return res.send(err)
         
@@ -26,7 +26,7 @@ routes.post('/', (req, res) => {
 });
 
 routes.delete('/:id', (req, res) => {
-    //res.send('testing api');
+    
     req.getConnection( (err,conn) => {
         if (err) return res.send(err)
         
@@ -39,7 +39,7 @@ routes.delete('/:id', (req, res) => {
 
 
 routes.put('/:id', (req, res) => {
-    //res.send('testing api');
+    
     req.getConnection( (err,conn) => {
         if (err) return res.send(err)
         
